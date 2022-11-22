@@ -1,5 +1,4 @@
 import React from 'react'
-import vrg from '../image/art6/vrg.png'
 import vide1 from '../video/art6V.mp4'
 
 function Art6() {
