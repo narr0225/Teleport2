@@ -1,6 +1,10 @@
 import React from 'react'
 import phone from '../image/art5/phone.png'
 import video2 from '../video/art5V_3.mp4'
+<<<<<<< HEAD
+=======
+import poster from '../video/poster/posYoutube2.jpg'
+>>>>>>> 577173f (first commit)
 
 
 function Art5() {
@@ -8,7 +12,11 @@ function Art5() {
     <div className='art5'>
       <div className='Wrapping5'>
         <img id='phone2' src={phone} alt="phone"/>
+<<<<<<< HEAD
         <video id='phone1'src={video2} controls/>
+=======
+        <video id='phone1'src={video2} poster={poster} controls/>
+>>>>>>> 577173f (first commit)
         <div className='wrpT5'>
               <h1 id='AR'>AR </h1>
               <h1>AUGMENTED REALITY</h1>
