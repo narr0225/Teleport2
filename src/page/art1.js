@@ -10,10 +10,8 @@ function Art1() {
   return (
     <>
     <div className='art1'>
-      {/* <Parallax  bgImage={image1} style={{ height: 2100 }} strength={800}>
-          <div className='react-parallax-bgimage' ></div>
-      </Parallax> */}
-      <Parallax style={{ height: 937 }} strength={500}>
+      <div id='nonparallax'></div>
+      <Parallax  style={{ height: 937 }} strength={500}>
         <Background className="custom-bg">
             <img src={image1} alt="fill murray" />
         </Background>

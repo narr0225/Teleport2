@@ -49,16 +49,18 @@ body{
   /* padding: 10px;  */
 } 
 
+#nonparallax {
+  background-image: url('./image/art1/bg2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: relative;
+  height: 1000px;
+}
 
-/* react-parallax */
-
-/* .react-parallax-bgimage{
-  height: 120rem;
-} */
-
-/* .react-parallax-bgimage{
-  height: 120rem;
-} */
+.react-parallax { 
+  display:none;
+}
 
 .custom-bg img{
 
@@ -75,10 +77,6 @@ body{
   transform: "translate(-50%,-50%)";
 }
 
-/* .react-parallax-content{
-  width: 10rem;
-  height: 120rem;
-} */
 
 .star{
   top: 0;
@@ -93,8 +91,6 @@ body{
 
 }
 
-
-
 .rock{
   top: 0;
   left: 0;
@@ -104,9 +100,7 @@ body{
   height: 1233px;
   background-position: bottom center;
 	background-repeat: repeat-x;
-  background-size: auto  1191px;
   background-size: auto  1391px;
-
 }
 
 .art1 p{
@@ -120,6 +114,33 @@ body{
   letter-spacing: 3rem;
 }
 
+@media (min-width: 600px){
+  #nonparallax {
+      display: none;
+  }
+  .react-parallax { 
+    display:block;
+  }
+  }
+  
+  @media (max-width: 601px){
+    .art1{
+      height: 328px;
+    }
+  
+    #nonparallax {
+        display: block;
+        height: 550px;
+    }
+    .react-parallax { 
+      display:none;
+    }
+    .rock{
+      height: 631px;
+      background-size: auto 576px;
+      background-image: url('./image/art1/rock-com.png');
+    }
+    }
 
 /* /////////////////////ART2//////////////////////////////////////////////*/
 
